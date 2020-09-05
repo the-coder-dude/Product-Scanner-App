@@ -1,7 +1,7 @@
 # Product-Scanner-App-using-React-Native [with Expo]
 
-
-apk file for this project can be found at: [Apk File](http://bit.ly/productscannerapp "apk file on Gdrive")
+## 🚀 APK file
+APK file for this project can be found at: [Apk File](http://bit.ly/productscannerapp "apk file on Gdrive")
   
 ## 🏃‍♂️ Local Installation
 
