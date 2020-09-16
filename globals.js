@@ -21,34 +21,10 @@ componentWillMount(){
 
 
           var userItem = snapshot.val();
-          // this.product = userItem.Product;
-          // this.price = userItem.Price;
 
           global.number = '10';
 
-        //   console.log(snapshot.val().Product);
-        //  console.log(snapshot.val().Price);
-         
-        // alert("Product: "+snapshot.val().Product+"\n\nPrice: "+snapshot.val().Price);
-
-        // this.setState({
-        //       product: snapshot.val().Product,
-        //       price: snapshot.val().Price
-
-        // })
-
-
-        // let data = snapshot.val().Product;
-        //     let items = Object.values(data);
-        //     //this.setState({items});
-      
-        // global.this.item = {
-        //    product: "prateek",
-        //    price: snapshot.val().Price
-        // }
-      
-      
-        // };
+        
       }, function (error) {
          console.log("Error: " + error.code);
       });
