@@ -1,13 +1,14 @@
 {
   "expo": {
-   "name": "Mpertz-unga",
-   "icon": "./assets/icon.png",
-   "version": "1.0.0",
-   "slug": "your-app-slug",
-   "sdkVersion": "33.0.0",
+    "name": "Mpertz-unga",
+    "icon": "./assets/icon.png",
+    "version": "1.0.0",
+    "slug": "your-app-slug",
     "android": {
-     "package": "com.mxpertz.unga",
-     "permissions": ["CAMERA"]
-   }
+      "package": "com.mxpertz.unga",
+      "permissions": [
+        "CAMERA"
+      ]
+    }
   }
 }
