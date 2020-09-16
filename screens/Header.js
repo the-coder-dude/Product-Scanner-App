@@ -7,7 +7,7 @@ const Header = () => (
     <View style={styles.ur_login}>
       <Text style={styles.text}>Login</Text>
 
-      <Image style={styles.img_lang} source={require("./assets/15s.png")} />
+      <Image style={styles.img_lang} source={require("../assets/15s.png")} />
     </View>
 
     <Text style={styles.text2}>Please login to your account.</Text>

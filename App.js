@@ -13,17 +13,17 @@ import {
   TouchableHighlight,
 } from "react-native";
 
-import Header from "./Header";
+import Header from "./screens/Header";
 import * as Google from "expo-google-app-auth";
-import SecondScreen from "./SecondScreen";
+import SecondScreen from "./screens/SecondScreen";
 import { KeyboardAvoidingView } from "react-native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import { AsyncStorage } from "react-native";
 import { BarCodeScanner } from "expo-barcode-scanner";
-import Scanner from "./Scanner";
-import BlankScreen from "./BlankScreen";
+import Scanner from "./screens/Scanner";
+import BlankScreen from "./screens/BlankScreen";
 import * as firebase from "firebase";
 
 const userInfo = { username: "admin", password: "A" };
@@ -56,7 +56,7 @@ class LoginScreen extends Component {
 
         <View style={styles.viewStyleForLine}></View>
 
-        <Image style={styles.arrow} source={require("./arrow.png")} />
+        <Image style={styles.arrow} source={require("./assets/arrow.png")} />
 
         <KeyboardAwareScrollView
           style={{ backgroundColor: "#fff" }}
@@ -65,13 +65,16 @@ class LoginScreen extends Component {
           scrollEnabled={false}
         >
           <View style={styles.imcontainer}>
-            <Image style={styles.logo} source={require("./logo-unga.jpg")} />
+            <Image
+              style={styles.logo}
+              source={require("./assets/logo-unga.jpg")}
+            />
           </View>
 
           <Text style={styles.ur_text1}>USERNAME</Text>
 
           <View style={styles.ur_input1}>
-            <Image style={styles.ur_img1} source={require("./12.png")} />
+            <Image style={styles.ur_img1} source={require("./assets/12.png")} />
             <TextInput
               style={styles.input}
               //  placeholder="USERNAME"
@@ -84,7 +87,7 @@ class LoginScreen extends Component {
           <Text style={styles.ur_text2}>PASSWORD</Text>
 
           <View style={styles.ur_input2}>
-            <Image style={styles.ur_img2} source={require("./13.png")} />
+            <Image style={styles.ur_img2} source={require("./assets/13.png")} />
 
             <TextInput
               style={styles.input2}
@@ -105,13 +108,13 @@ class LoginScreen extends Component {
             <TouchableHighlight onPress={this._login_google}>
               <Image
                 style={styles.icons_google}
-                source={require("./google.png")}
+                source={require("./assets/google.png")}
               />
             </TouchableHighlight>
 
             <Image
               style={styles.icons_facebook}
-              source={require("./facebook.png")}
+              source={require("./assets/facebook.png")}
             />
           </View>
 

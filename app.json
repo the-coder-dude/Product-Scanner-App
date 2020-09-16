@@ -1,14 +1,12 @@
 {
   "expo": {
     "name": "Mpertz-unga",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app_icon.png",
     "version": "1.0.0",
     "slug": "your-app-slug",
     "android": {
       "package": "com.mxpertz.unga",
-      "permissions": [
-        "CAMERA"
-      ]
+      "permissions": ["CAMERA"]
     }
   }
 }

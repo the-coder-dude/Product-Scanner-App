@@ -18,12 +18,12 @@ import {
   TouchableHighlight,
 } from "react-native";
 
-import firebase from "./screens/dbConfig";
+import firebase from "./dbConfig";
 
 // import { createAppContainer } from 'react-navigation';
 // import { createStackNavigator } from 'react-navigation-stack';
 
-import Scanner from "./screens/Scanner";
+//import Scanner from "./Scanner";
 
 const DEVICE_HEIGHT = Dimensions.get("window").height;
 
@@ -49,7 +49,7 @@ class SecondScreen extends Component {
         <View style={styles.BackGround}>
           <View style={styles.SectionStyle}>
             <Image
-              source={require("./assets/mic.png")} //Change your icon image here
+              source={require("../assets/mic.png")} //Change your icon image here
               style={styles.ImageStyle}
             />
 
@@ -70,7 +70,7 @@ class SecondScreen extends Component {
               //onSubmitEditing={()=>this.componentWillMount}
             />
             <Image
-              source={require("./assets/usr.png")} //Change your icon image here
+              source={require("../assets/usr.png")} //Change your icon image here
               style={styles.ImageStyle2}
             />
           </View>
@@ -139,7 +139,7 @@ class SecondScreen extends Component {
           >
             <View style={styles.navBar_out_l}>
               <Image
-                source={require("./assets/cross.png")} //Change your icon image here
+                source={require("../assets/cross.png")} //Change your icon image here
                 style={styles.icon_bottom_1_2_4}
               />
               <Text
@@ -152,7 +152,7 @@ class SecondScreen extends Component {
 
             <View style={styles.navBar_in}>
               <Image
-                source={require("./assets/tick.png")} //Change your icon image here
+                source={require("../assets/tick.png")} //Change your icon image here
                 style={styles.icon_bottom_1_2_4}
               />
               <Text
@@ -168,7 +168,7 @@ class SecondScreen extends Component {
                 onPress={() => this.props.navigation.navigate("Scan")}
               >
                 <Image
-                  source={require("./assets/bar_c1.png")} //Change your icon image here
+                  source={require("../assets/bar_c1.png")} //Change your icon image here
                   style={styles.icon_bottom_3}
                 />
               </TouchableHighlight>
@@ -182,7 +182,7 @@ class SecondScreen extends Component {
 
             <View style={styles.navBar_in}>
               <Image
-                source={require("./assets/calci.png")} //Change your icon image here
+                source={require("../assets/calci.png")} //Change your icon image here
                 style={styles.icon_bottom_1_2_4}
               />
 
@@ -191,7 +191,7 @@ class SecondScreen extends Component {
 
             <View style={styles.navBar_out_r}>
               <Image
-                source={require("./assets/user_nav.png")} //Change your icon image here
+                source={require("../assets/user_nav.png")} //Change your icon image here
                 style={styles.icon_bottom_5}
               />
               <Text style={styles.navText}>Photo Update</Text>

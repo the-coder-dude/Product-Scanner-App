@@ -224,7 +224,7 @@ export default class ListItem extends Component {
         >
           <View style={styles.navBar_out_l}>
             <Image
-              source={require("./assets/cross.png")} //Change your icon image here
+              source={require("../assets/cross.png")} //Change your icon image here
               style={styles.icon_bottom_1_2_4}
             />
             <Text
@@ -237,7 +237,7 @@ export default class ListItem extends Component {
 
           <View style={styles.navBar_in}>
             <Image
-              source={require("./assets/tick.png")} //Change your icon image here
+              source={require("../assets/tick.png")} //Change your icon image here
               style={styles.icon_bottom_1_2_4}
             />
             <Text
@@ -253,7 +253,7 @@ export default class ListItem extends Component {
               onPress={() => this.props.navigation.navigate("Scan")}
             >
               <Image
-                source={require("./assets/bar_c1.png")} //Change your icon image here
+                source={require("../assets/bar_c1.png")} //Change your icon image here
                 style={styles.icon_bottom_3}
               />
             </TouchableHighlight>
@@ -267,7 +267,7 @@ export default class ListItem extends Component {
 
           <View style={styles.navBar_in}>
             <Image
-              source={require("./assets/calci.png")} //Change your icon image here
+              source={require("../assets/calci.png")} //Change your icon image here
               style={styles.icon_bottom_1_2_4}
             />
             {/* </View> */}
@@ -277,7 +277,7 @@ export default class ListItem extends Component {
 
           <View style={styles.navBar_out_r}>
             <Image
-              source={require("./assets/user_nav.png")} //Change your icon image here
+              source={require("../assets/user_nav.png")} //Change your icon image here
               style={styles.icon_bottom_5}
             />
             <Text style={styles.navText}>Photo Update</Text>
